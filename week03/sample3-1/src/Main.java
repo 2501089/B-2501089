@@ -7,10 +7,10 @@ public class Main {
         long c=0L;
         byte d=0;
         short f=0;
-        boolean t=false
+        boolean t=false;
         char g=' ';
 
-        final float PI =3.141592
+        final float PI =3.141592;
 
         String y="";
 

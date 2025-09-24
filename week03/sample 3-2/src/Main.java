@@ -8,6 +8,6 @@ public class Main {
   short result = (short) (test1 + test2);
   result = (short) (3.05+3.5);
 
-  System.out.printf("%d + %d =%d\n",test1,test2, result )
+  System.out.printf("%d + %d =%d\n",test1,test2, result );
     }
 }
