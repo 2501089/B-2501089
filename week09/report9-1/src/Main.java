@@ -1,0 +1,33 @@
+public class Main {
+    public static void main(String[] args) {
+        int chicken, dog;
+
+
+        for (chicken = 0; chicken <= 37; chicken++) {
+            dog = 37 - chicken;
+            if (chicken * 2 + dog * 4 == 102) {
+                System.out.printf("닭 %d마리, 개 %d마리\n", chicken, dog);
+            }
+        }
+
+
+        chicken = 0;
+        while (chicken <= 37) {
+            dog = 37 - chicken;
+            if (chicken * 2 + dog * 4 == 102) {
+                System.out.printf("닭 %d마리, 개 %d마리\n", chicken, dog);
+            }
+            chicken++;
+        }
+
+
+        chicken = 0;
+        do {
+            dog = 37 - chicken;
+            if (chicken * 2 + dog * 4 == 102) {
+                System.out.printf("닭 %d마리, 개 %d마리\n", chicken, dog);
+            }
+            chicken++;
+        } while (chicken <= 37);
+    }
+}
