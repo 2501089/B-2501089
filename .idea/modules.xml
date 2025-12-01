@@ -36,6 +36,11 @@
       <module fileurl="file://$PROJECT_DIR$/week10/sample 10-3/sample 10-3.iml" filepath="$PROJECT_DIR$/week10/sample 10-3/sample 10-3.iml" />
       <module fileurl="file://$PROJECT_DIR$/week10/sample 10-4/sample 10-4.iml" filepath="$PROJECT_DIR$/week10/sample 10-4/sample 10-4.iml" />
       <module fileurl="file://$PROJECT_DIR$/week10/sample 10-5/sample 10-5.iml" filepath="$PROJECT_DIR$/week10/sample 10-5/sample 10-5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week12/sample 12-1/sample 12-1.iml" filepath="$PROJECT_DIR$/week12/sample 12-1/sample 12-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week12/sample 12-2/sample 12-2.iml" filepath="$PROJECT_DIR$/week12/sample 12-2/sample 12-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week12/sample 12-3/sample 12-3.iml" filepath="$PROJECT_DIR$/week12/sample 12-3/sample 12-3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week12/sample 12-4/sample 12-4.iml" filepath="$PROJECT_DIR$/week12/sample 12-4/sample 12-4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week12/sample 12-5/sample 12-5.iml" filepath="$PROJECT_DIR$/week12/sample 12-5/sample 12-5.iml" />
       <module fileurl="file://$PROJECT_DIR$/week03/sample 3-2/sample 3-2.iml" filepath="$PROJECT_DIR$/week03/sample 3-2/sample 3-2.iml" />
       <module fileurl="file://$PROJECT_DIR$/week03/sample 3-3/sample 3-3.iml" filepath="$PROJECT_DIR$/week03/sample 3-3/sample 3-3.iml" />
       <module fileurl="file://$PROJECT_DIR$/week03/sample 3-4/sample 3-4.iml" filepath="$PROJECT_DIR$/week03/sample 3-4/sample 3-4.iml" />
@@ -111,6 +116,7 @@
       <module fileurl="file://$PROJECT_DIR$/week09/week09.iml" filepath="$PROJECT_DIR$/week09/week09.iml" />
       <module fileurl="file://$PROJECT_DIR$/week10/week10.iml" filepath="$PROJECT_DIR$/week10/week10.iml" />
       <module fileurl="file://$PROJECT_DIR$/week11/week11.iml" filepath="$PROJECT_DIR$/week11/week11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week12/week12.iml" filepath="$PROJECT_DIR$/week12/week12.iml" />
     </modules>
   </component>
 </project>
