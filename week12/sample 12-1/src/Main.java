@@ -4,46 +4,43 @@ import java.util.Scanner;
 // 에디터 여백에 있는 <icon src="AllIcons.Actions.Execute"/> 아이콘을 클릭하세요.
 public class Main {
     public static void main(String[] args) {
-//        Scanner keyboard = new Scanner(System.in);
         int first, second;
-        int result = 0;
+        int result;
 
-        Output.display(); // call by name
-        first = Input.readData("첫번째 데이터 : "); // call by value
+        Output.display();                              //call by name
+        first = Input.readData("첫번째 데이터 : ");  //call by value
         second = Input.readData("두번째 데이터 : ");
-        result = Compute.add(first, second); // 실 매개변수 - 실제 값이 있음.
+        /*
+        System.out.print("첫 번째 정수 입력 : ");
+        first = keyboard.nextInt();
+        System.out.print("두 번째 정수 입력 : ");
+        second = keyboard.nextInt();  */
+
+        result = Compute.add(first, second);  //여기서 first, second는 실메개변수
+        // result = first + second;
+
         Output.display(first, second, result);
+        //System.out.printf("%d + %d = %d\n", first, second, result);
         Output.display();
-
-//        System.out.print("첫번째 정수 입력 : ");
-//        first = keyboard.nextInt();
-//        System.out.print("두번째 정수 입력 : ");
-//        second = keyboard.nextInt();
-
-//        result = first + second;
-
-//        System.out.printf("%d + %d = %d\n", first, second, result);
-
     }
-}
+/*
+    private static void display(int first, int second, int result) {
+        //void는 암것도 없는 것이라 return 없어도됨
+        System.out.printf("%d + %d = %d\n", first, second, result);
+    }
 
-//    private static void display(int first, int second, int result) { // display는 리턴이 없기 때문에 void로 선언.
-//        System.out.printf("%d + %d = %d\n", first, second, result);
-//    }
-//
-//    private static int add(int first, int second) { // first, second = 형식 매개변수 최대 7개 정도 저장 가능
-//        int result;
-//
-//        result = first + second;
-//        return result;
-//    }
-//
-//    private static int readData(String msg) { // Method header
-//        Scanner keyboard = new Scanner(System.in);
-//        int temp;
-//        System.out.print(msg);
-//        temp = keyboard.nextInt();
-//
-//        return temp;
-//    }
-//}
+    private static int add(int first, int second) {//first, second : 형식메개변수
+        int result;
+        result = first + second;
+        return result;
+    }
+
+    private static int readData(String msg) {
+        //메소드 헤더 { 바디 }
+        Scanner keyboard = new Scanner(System.in);
+        int temp;
+        System.out.print(msg);
+        temp = keyboard.nextInt();
+        return temp;
+    }*/
+}

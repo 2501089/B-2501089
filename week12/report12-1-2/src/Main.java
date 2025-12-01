@@ -2,11 +2,12 @@
 // 에디터 여백에 있는 <icon src="AllIcons.Actions.Execute"/> 아이콘을 클릭하세요.
 public class Main {
     public static void main(String[] args) {
-        int[] data = new int[10];
-        int result;
+        int num1 = Input.readData("정수 1 입력: ");
+        int num2 = Input.readData("정수 2 입력: ");
 
-        Input.readData(data);          //call by reference   data는 reference
-        result = Compute.add(data);    //call by reference
-        Output.display(data, result);  // 혼합 형태
+        int result = Compute.max(num1, num2);
+
+        Output.display(result);
+
     }
 }

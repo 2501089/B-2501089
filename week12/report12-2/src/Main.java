@@ -2,11 +2,10 @@
 // 에디터 여백에 있는 <icon src="AllIcons.Actions.Execute"/> 아이콘을 클릭하세요.
 public class Main {
     public static void main(String[] args) {
-        int[] data = new int[10];
-        int result;
+        int year = Input.readData("연도 입력: ");
 
-        Input.readData(data);          //call by reference   data는 reference
-        result = Compute.add(data);    //call by reference
-        Output.display(data, result);  // 혼합 형태
+        boolean result = Compute.leapYear(year);
+
+        Output.display(year, result);
     }
 }
